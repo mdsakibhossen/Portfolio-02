@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <title>Project-1</title>
+
+    <!-- ----------CSS---------- -->
+
+    <!-- BOOTSTRAP CSS -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+    <!-- FONT AWESOME CSS -->
+    <!-- <script src="https://kit.fontawesome.com/98aa4383c2.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <!-- GOOGLE FONT CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- OWL CAROUSEL 2 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.green.min.css"
+        integrity="sha512-C8Movfk6DU/H5PzarG0+Dv9MA9IZzvmQpO/3cIlGIflmtY3vIud07myMu4M/NTPJl8jmZtt/4mC9bAioMZBBdA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- AOS CSS (For Scroll Animation) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Favicon Icon -->
+    <link rel="icon" href="fav_icon/favicon-32x32.png" sizes="32x32" type="image/png">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+    <!-- /////-----Header Section Start-----///// -->
+    <header>
+        <!-- ---Topbar Start--- -->
+        <div class="top_bar">
+            <div class="container">
+                <div class="menu">
+                    <a href="#" class="logo" data-aos="fade-right"><span>S</span>hakib</a>
+                    <!-- -----Navigation----- -->
+                    <nav class="">
+                        <ul>
+                            <li><a href="#" class="active_menu">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#skills">My Skills</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#our_team">Our Team</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- -----Menu Button----- -->
+                    <div class="menu_btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ---Topbar End--- -->
+
+
+        <!-- ---Header Content--- -->
+        <div class="container">
+            <div class="content_wrapper">
+                <div class="header_content" data-aos="zoom-in">
+                    <p class="text_1">Hello, My name is</p>
+                    <h2 class="text_2">Shakib Sardar</h2>
+                    <p class="text_3">I'm a <span class="element"></span></p>
+                    <a href="#" class="cv_btn">Download CV</a>
+                </div>
+                <div class="picture" data-aos="zoom-in-left">
+                    <img src="image/joker_1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- /////-----Header Section End-----///// -->
+
+    <!-- /////-----About Section Start-----///// -->
+    <scetion id="about">
+        <div class="container">
+            <div data-aos="fade-down" class="sec_header">
+                <h1>About Me</h1>
+                <p>Who I am</p>
+            </div>
+            <div class="sec_content">
+                <div data-aos="zoom-in-right" class="img_wrapper">
+                    <!-- Swiper -->
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="image/joker_1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/joker_2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/joker_3.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/joker_4.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="image/joker_logo.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                </div>
+                <div class="info_wrapper">
+                    <div data-aos="zoom-in-left" class="about_content">
+                        <h3>Hi, I'm Shakib</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus odit pariatur
+                            voluptatem
+                            quos quis quae sed soluta, veniam animi neque maiores porro quidem illum architecto optio
+                            sequi,
+                            sint eveniet. Dignissimos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+                            unde molestiae numquam, asperiores consequuntur iure odit nostrum quisquam aliquam modi.
+                            Lorem,
+                            ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                        <div data-aos="flip-up" class="btn">
+                            <a href="#" class="hire_me_btn">Hire Me</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </scetion>
+    <!-- /////-----About Section End-----///// -->
+
+
+
+
+
+
+    <!-- /////-----Skills Section Start-----///// -->
+    <section id="skills">
+        <div class="container">
+            <div data-aos="fade-down" class="sec_header">
+                <h1>My Skills</h1>
+                <p>What I can do</p>
+            </div>
+            <div class="skills_content">
+                <div class="tech_skills">
+                    <p data-aos="zoom-in">Technical Skills</p>
+                    <div class="single_box">
+                        <p>HTML</p>
+                        <div class="progress_field"><span class="progress_bar html"></span></div>
+                    </div>
+                    <div class="single_box">
+                        <p>CSS</p>
+                        <div class="progress_field"><span class="progress_bar css"></span></div>
+                    </div>
+                    <div class="single_box">
+                        <p>JavaScript</p>
+                        <div class="progress_field"><span class="progress_bar js"></span></div>
+                    </div>
+                    <div class="single_box">
+                        <p>PHP</p>
+                        <div class="progress_field"><span class="progress_bar php"></span></div>
+                    </div>
+                    <div class="single_box">
+                        <p>Python</p>
+                        <div class="progress_field"><span class="progress_bar py"></span></div>
+                    </div>
+
+                </div>
+                <div class="pro_skills">
+                    <p data-aos="zoom-in">Professional Skills</p>
+                    <div class="pro_skills_full_box">
+                        <div class="single_box_2">
+                            <svg>
+                                <circle cx="60" cy="60" r="50" class="circle"></circle>
+                            </svg>
+                            <div class="percentage" data-target="70"><span class="counter">70</span><span>%</span></div>
+                            <p class="skills_text">Speaking English</p>
+                        </div>
+                        <div class="single_box_2">
+                            <svg>
+                                <circle cx="60" cy="60" r="50" class="circle"></circle>
+                            </svg>
+                            <div class="percentage" data-target="90"><span class="counter">90</span><span>%</span></div>
+                            <p class="skills_text">Team Work</p>
+
+                        </div>
+                        <div class="single_box_2">
+                            <svg>
+                                <circle cx="60" cy="60" r="50" class="circle"></circle>
+                            </svg>
+                            <div class="percentage" data-target="60"><span class="counter">60</span><span>%</span></div>
+                            <p class="skills_text">Communication</p>
+
+                        </div>
+                        <div class="single_box_2">
+                            <svg>
+                                <circle cx="60" cy="60" r="50" class="circle"></circle>
+                            </svg>
+                            <div class="percentage"><span class="counter">80</span><span>%</span></div>
+                            <p class="skills_text">Others</p>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////-----Skills Section End-----///// -->
+
+
+    <!-- /////-----Servicies Section End-----///// -->
+    <section id="services">
+        <div class="container">
+            <div data-aos="fade-down" class="sec_header">
+                <h1>Our Services</h1>
+                <p>What we do</p>
+            </div>
+            <div class="services_wrapper">
+                <div data-aos="fade-down-right" class="single_services">
+                    <div class="services_icon">
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                    </div>
+                    <div class="services_content">
+                        <h2>Web Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus velit nostrum
+                            corporis hic praesentium itaque cumque unde ipsam ab.</p>
+                        <a href="#" class="read_more_btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div data-aos="fade-down" class="single_services">
+                    <div class="services_icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="services_content">
+                        <h2>App Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus velit nostrum
+                            corporis hic praesentium itaque cumque unde ipsam ab.</p>
+                        <a href="#" class="read_more_btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div data-aos="fade-down-left" class="single_services">
+                    <div class="services_icon">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="services_content">
+                        <h2>Software Development</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus velit nostrum
+                            corporis hic praesentium itaque cumque unde ipsam ab.</p>
+                        <a href="#" class="read_more_btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div data-aos="fade-up-right" class="single_services">
+                    <div class="services_icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <div class="services_content">
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus velit nostrum
+                            corporis hic praesentium itaque cumque unde ipsam ab.</p>
+                        <a href="#" class="read_more_btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div data-aos="fade-up" class="single_services">
+                    <div class="services_icon">
+                        <i class="far fa-chart-bar"></i>
+                    </div>
+                    <div class="services_content">
+                        <h2>Graphics Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus velit nostrum
+                            corporis hic praesentium itaque cumque unde ipsam ab.</p>
+                        <a href="#" class="read_more_btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div data-aos="fade-up-left" class="single_services">
+                    <div class="services_icon">
+                        <i class="fas fa-dollar-sign"></i>
+                    </div>
+                    <div class="services_content">
+                        <h2>Degital Marketing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates natus velit nostrum
+                            corporis hic praesentium itaque cumque unde ipsam ab.</p>
+                        <a href="#" class="read_more_btn">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////-----Servicies Section End-----///// -->
+
+
+    <!-- /////-----Counter Section Start-----///// -->
+    <section id="num_counter">
+        <div class="container">
+            <div class="counter_wrapper">
+                <div class="single_counter">
+                    <div class="counter_icon"><i class="far fa-clock"></i></div>
+                    <div class="counter">48900</div>
+                    <div class="counter_text">
+                        <h3>Marketing Hours</h3>
+                    </div>
+                </div>
+                <div class="single_counter">
+                    <div class="counter_icon"><i class="fas fa-users"></i></div>
+                    <div class="counter">5000</div>
+                    <div class="counter_text">
+                        <h3>Happy Clients</h3>
+                    </div>
+                </div>
+                <div class="single_counter">
+                    <div class="counter_icon"><i class="fas fa-notes-medical"></i></div>
+                    <div class="counter">400</div>
+                    <div class="counter_text">
+                        <h3>Projects</h3>
+                    </div>
+                </div>
+                <div class="single_counter">
+                    <div class="counter_icon"><i class="fas fa-gift"></i></div>
+                    <div class="counter">489</div>
+                    <div class="counter_text">
+                        <h3>Awards Received</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////-----Counter Section End-----///// -->
+
+
+    <!-- /////-----Projects Section Start-----///// -->
+    <section id="projects">
+        <div class="container">
+            <div data-aos="fade-down" class="sec_header">
+                <h1>Our Projects</h1>
+                <p>What we have done</p>
+            </div>
+            <div class="projects_content">
+                <div data-aos="zoom-in-right" class="single_project bg_1">
+                    <div class="project_text">
+                        <h3>Project - 01</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, enim.</p>
+                        <a href="#">View Full Website</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-down" class="single_project bg_2">
+                    <div class="project_text">
+                        <h3>Project - 02</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, enim.</p>
+                        <a href="#">View Full Website</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-in-left" class="single_project bg_3">
+                    <div class="project_text">
+                        <h3>Project - 03</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, enim.</p>
+                        <a href="#">View Full Website</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-right" class="single_project bg_4">
+                    <div class="project_text">
+                        <h3>Project - 04</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, enim.</p>
+                        <a href="#">View Full Website</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-up" class="single_project bg_5">
+                    <div class="project_text">
+                        <h3>Project - 05</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, enim.</p>
+                        <a href="#">View Full Website</a>
+                    </div>
+                </div>
+                <div data-aos="zoom-out-left" class="single_project bg_6">
+                    <div class="project_text">
+                        <h3>Project - 06</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, enim.</p>
+                        <a href="#">View Full Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////-----Projects Section End-----///// -->
+
+
+    <!-- /////-----Our Team Section Start-----///// -->
+    <section id="our_team">
+        <div class="container">
+            <div data-aos="fade-down" class="sec_header">
+                <h1>Our Team</h1>
+                <p>Who with me</p>
+            </div>
+            <div class="our_team_sec owl-carousel owl-theme">
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Sabbir Rahman</h2>
+                            <p>Web Developer</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Shakib Sardar</h2>
+                            <p>Web Designer</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Liton Das</h2>
+                            <p>Graphics Designer</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Shakib Sardar</h2>
+                            <p>Digital Marketer</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Taskin Ahmed</h2>
+                            <p>Blogger</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Mustafizur</h2>
+                            <p>Youtuber</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Mehedi Miraz</h2>
+                            <p>Freelancer</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Mahmudullah</h2>
+                            <p>Software Developer</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Mushfiqur Rahim</h2>
+                            <p>Web Designer</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="single_team_wrapper item">
+                    <div class="top_part">
+                        <div class="img_wrapper">
+                            <img src="image/joker_3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="bottom_part">
+                        <div class="info">
+                            <h2>Tamim Iqbal</h2>
+                            <p>Graphics Designer</p>
+                        </div>
+                        <div class="social_contact">
+                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                            <a href=""><i class="fab fa-facebook-messenger"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////-----Our Team Section End-----///// -->
+
+
+    <!-- /////-----Contact Section Start-----///// -->
+    <section id="contact">
+        <div class="container">
+            <div data-aos="fade-down" class="sec_header">
+                <h1>Contact Me</h1>
+                <p>Get in touch</p>
+            </div>
+            <div class="contact_sec">
+                <div class="left">
+                    <div data-aos="fade-right" class="top">
+                        <h3>Want to Contact ?</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae et fuga dolores? Ipsam,
+                            praesentium tempora.</p>
+                    </div>
+                    <div class="bottom">
+                        <div data-aos="fade-right" class="single_contact">
+                            <div class="icon">
+                                <i class="far fa-user"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Name</h3>
+                                <p>Shakib Sardar</p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-right" class="single_contact">
+                            <div class="icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p><a href="mailto:shakib6443@gmail.com">shakib6443@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-right" class="single_contact">
+                            <div class="icon">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p><a href="tel:+8801732271525">+8801732271525</a></p>
+                            </div>
+                        </div>
+                        <div data-aos="fade-right" class="single_contact">
+                            <div class="icon">
+                                <i class="far fa-address-book"></i>
+                            </div>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>Ashulia, Savar, Dhaka</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <form action="#">
+                        <div data-aos="fade-left" class="single_form_sec">
+                            <label for="name"><i class="far fa-user"></i> Name: </label>
+                            <input type="text" id="name" placeholder="Enter Your Name">
+                        </div>
+                        <div data-aos="fade-left" class="single_form_sec">
+                            <label for="email"><i class="far fa-envelope"></i> Email: </label>
+                            <input type="email" id="email" placeholder="Enter Your Email">
+                        </div>
+                        <div data-aos="fade-left" class="single_form_sec">
+                            <label for="subject"><i class="far fa-file-code"></i> Subject: </label>
+                            <input type="text" id="subject" placeholder="Enter Subject (Optional)">
+                        </div>
+                        <div data-aos="fade-left" class="single_form_sec">
+                            <label for="message"><i class="far fa-comment"></i> Message: </label>
+                            <textarea name="" id="message">Write Your Message...</textarea>
+                        </div>
+                        <div data-aos="flip-left" class="form_btn">
+                            <input type="submit" id="send_btn" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /////-----Contact Section End-----///// -->
+
+
+
+
+    <!-- /////-----Footer Section Start-----///// -->
+    <footer>
+        <div class="container">
+            <div data-aos="zoom-in" class="footer_content">
+                <div class="f_contact">
+                    <div class="f_heading">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <div class="f_contact_wrapper">
+                        <div class="single_f_contact">
+                            <div class="contact_icon">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                            </div>
+                            <div class="contact_info">
+                                <a href="tel:+8801732271525">+8801732271525</a>
+                            </div>
+                        </div>
+                        <div class="single_f_contact">
+                            <div class="contact_icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="contact_info">
+                                <a href="mailto:shakib6443@gmail.com">shakib6443@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="f_skills">
+                    <div class="f_heading">
+                        <h2>Skills</h2>
+                    </div>
+                    <div class="f_skills_wrapper">
+                        <div class="single_f_skill">
+                            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> HTML & CSS</a>
+                        </div>
+                        <div class="single_f_skill">
+                            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> BootStrap</a>
+                        </div>
+                        <div class="single_f_skill">
+                            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> PHP & MySQL</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="f_links">
+                    <div class="f_heading">
+                        <h2>Usefull Links</h2>
+                    </div>
+                    <div class="f_links_wrapper">
+                        <div class="single_f_link">
+                            <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+                        </div>
+                        <div class="single_f_link">
+                            <a href="#"><i class="fas fa-book-reader"></i> Portfolio</a>
+                        </div>
+                        <div class="single_f_link">
+                            <a href="#"><i class="far fa-caret-square-right"></i> Others</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="f_others">
+                    <div class="f_heading">
+                        <h2>Others</h2>
+                    </div>
+                    <div class="f_others_wrapper">
+                        <div class="single_f_other">
+                            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> About</a>
+                        </div>
+                        <div class="single_f_other">
+                            <a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> FAQ</a>
+                        </div>
+                        <div class="social_icons">
+                            <span class="single_icon">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </span>
+                            <span class="single_icon">
+                                <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+                            </span>
+                            <span class="single_icon">
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </span>
+                            <span class="single_icon">
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="bottom_footer">
+            <p>Copyright 1999-2021 by Refsnes Data. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- /////-----Footer Section End-----///// -->
+
+
+
+
+    <!-- ----------JAVASCRIPT---------- -->
+
+    <!-- JEQUERY JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script> -->
+
+    <!-- OWL CAROUSEL 2 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            responsiveClass: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true
+                },
+                576: {
+                    items: 2,
+                    nav: true,
+                    loop: false
+                },
+                991: {
+                    items: 3,
+                    nav: true,
+                    loop: false
+                },
+                1200: {
+                    items: 4,
+                    nav: true,
+                    loop: false
+                }
+            }
+        })
+    </script>
+
+    <!-- SWIPER JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            effect: "cube",
+            grabCursor: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            loop: true,
+            cubeEffect: {
+                shadow: true,
+                slideShadows: true,
+                shadowOffset: 20,
+                shadowScale: 0.94
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            }
+
+        });
+    </script>
+
+    <!-- Tilt Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+    <script>
+        $('.single_services').tilt()
+    </script>
+
+    <!-- Counter Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+        integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1300
+            });
+
+        });
+    </script>
+
+    <!-- AOS JS (For Scroll Animation) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            delay: 0,
+            duration: 1000
+        });
+    </script>
+
+    <!-- TYPED JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+        integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["Web Developer", "Programmer", "Businessman"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+    </script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
